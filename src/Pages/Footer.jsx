@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa6';
-import logo from '../assets/images/restaurant.jpg'
+import logo from '../assets/images/foodking-logo.svg'
 
 const Footer = () => {
     return (
