@@ -18,10 +18,10 @@ const Navbar = () => {
 
     return (
 
-        <div className='flex justify-between items-center py-5 font-medium sticky top-0 w-full px-10 shadow-md bg-white z-50 '>
-            <div className='flex items-center justify-center'>
+        <div className='flex justify-between items-center py-5 font-medium sticky top-0 w-full lg:px-10 px-2 shadow-md bg-white z-50 '>
+            <div className='flex items-center gap-2 justify-center'>
                 <RiMenu2Line onClick={() => setOpen(!open)} className='md:hidden' />
-                <Link to='/'><img className='w-40' src={logo} alt="Logo" /></Link>
+                <Link to='/'><img className='lg:w-40 w-25' src={logo} alt="Logo" /></Link>
             </div>
             <ul className='hidden sm:flex gap-5 text-sm '>
                 <NavLink to='/' className='flex flex-col items-center gap-1' >
@@ -67,15 +67,15 @@ const Navbar = () => {
 
 
             {/* {Sidebar Menu for small screen} */}
-            <div className={`md:hidden fixed w-100 inset-0 bg-white z-40 transition-all duration-300 ease-in-out transform ${open ? 'translate-x-0' : '-translate-x-full'}`}>
+            <div className={`md:hidden fixed w-full inset-0 bg-white z-40 transition-all duration-300 ease-in-out transform ${open ? 'translate-x-0' : '-translate-x-full'}`}>
                 <div className='flex flex-col text-gray-600'>
                     <div onClick={() => setOpen(false)} className='flex items-center gap-4 p-3'>
                         <p><RxCross2 className='text-lg' /></p>
                     </div>
                     <NavLink onClick={() => { setMenu('HOME'), setOpen(false) }} className={menu === 'HOME' ? 'py-2  bg-black pl-6 border  cursor-pointer text-white' : 'py-2  pl-6 border  cursor-pointer'} to='/'>HOME</NavLink>
-                    <NavLink onClick={() => { setMenu('FIND JOB'), setOpen(false) }} className={menu === 'FIND JOB' ? ' bg-black text-white py-2 pl-6 border-b cursor-pointer' : 'py-2  pl-6 border-b cursor-pointer'} to='/findjob'>FIND JOB</NavLink>
-                    <NavLink onClick={() => { setMenu('REQRUITER'), setOpen(false) }} className={menu === 'REQRUITER' ? 'bg-black  text-white border-b py-2 cursor-pointer pl-6 ' : 'py-2 pl-6 border-b cursor-pointer'} to='/recruiter'>REQRUITER</NavLink>
-                    <NavLink onClick={() => { setMenu('CANDIDATES'), setOpen(false) }} className={menu === 'CANDIDATES' ? 'py-2 pl-6 border-b cursor-pointer bg-black text-white' : 'py-2 pl-6 border-b cursor-pointer'} to='/candidate'>CANDIDATES</NavLink>
+                    <NavLink onClick={() => { setMenu('DASHBOARD'), setOpen(false) }} className={menu === 'DASHBOARD' ? ' bg-black text-white py-2 pl-6 border-b cursor-pointer' : 'py-2  pl-6 border-b cursor-pointer'} to='/dashboard'>DASHBOARD</NavLink>
+                    <NavLink onClick={() => { setMenu('OUR MENU'), setOpen(false) }} className={menu === 'OUR MENU' ? 'bg-black  text-white border-b py-2 cursor-pointer pl-6 ' : 'py-2 pl-6 border-b cursor-pointer'} to='/our-menu'>OUR MENU</NavLink>
+                    <NavLink onClick={() => { setMenu('OUR SHOP'), setOpen(false) }} className={menu === 'OUR SHOP' ? 'py-2 pl-6 border-b cursor-pointer bg-black text-white' : 'py-2 pl-6 border-b cursor-pointer'} to='/our-shop'>OUR SHOP</NavLink>
                     <NavLink onClick={() => { setMenu('CONTACT'), setOpen(false) }} className={menu === 'CONTACT' ? 'py-2 pl-6 border-b cursor-pointer bg-black text-white' : 'py-2 pl-6 border-b cursor-pointer'} to='/contact'>CONTACT</NavLink>
                     <NavLink onClick={() => { setMenu('LOGIN'), setOpen(false) }} className={menu === 'LOGIN' ? 'py-2 pl-6 border-b cursor-pointer bg-black text-white' : 'py-2 pl-6 border-b cursor-pointer'} to='/login'>LOGIN</NavLink>
                 </div>
