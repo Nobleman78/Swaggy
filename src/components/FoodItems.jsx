@@ -18,7 +18,23 @@ const FoodItems = () => {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 1000,
-        pauseOnHover: true
+        pauseOnHover: true,
+        responsive: [
+            {
+                breakpoint: 1024, // for medium screens
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 768, // for small screens
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     };
 
     return (
@@ -60,8 +76,8 @@ const FoodItems = () => {
                         <h2 className='text-center text-lg mt-2 text-semibold '>10 Products</h2>
                     </div>
                     <div className="flex items-center gap-4 p-4 hover:bg-green-600 hover:text-white rounded-2xl">
-                        <img className='w-50 h-50' src={menu6} alt="" />
-                        <p className="text-3xl mt-5 font-semibold text-center" >French Fry</p>
+                        <img className='w-50 lg:h-50' src={menu6} alt="" />
+                        <p className="lg:text-3xl mt-5 font-semibold text-center" >French Fry</p>
                         <p className='w-10 mt-2  bg-white border mx-auto'></p>
                         <p className='text-center text-lg mt-2  text-semibold '>10 Products</p>
                     </div>
