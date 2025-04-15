@@ -17,12 +17,12 @@ const FoodMarketing = () => {
                 </div>
                 <img className='absolute bottom-5 left-0 zoom-pulse' src={discount} alt="" />
                 <img className='absolute right-0 bottom-1 opacity-80 z-0 transform transition duration-300 group-hover:scale-110' src={mainFood} alt="" />
-                <img className='absolute right-0 top-0' src={burgerText} alt="" />
+                <img className='absolute right-0 top-0  animate-sway' src={burgerText} alt="" />
 
             </div>
             <div className="relative group w-3/4 bg-gradient-to-b from-red-700 via-red-700 to-yellow-100 p-6 rounded-2xl text-white h-100">
                 <img className="absolute right-0  transform transition duration-300 group-hover:scale-110" src={pizza} alt="" />
-                <img className="absolute left-20" src={pizzaText} alt="" />
+                <img className="absolute left-20  animate-sway" src={pizzaText} alt="" />
                 <img className="absolute bottom-5 zoom-pulse" src={pizzaTextTwo} alt="" />
             </div>
         </div>
