@@ -47,9 +47,9 @@ const Navbar = () => {
 
             </ul>
             <ul className='flex items-center justify-between gap-3 relative'>
-                <NavLink to='/registration' className='bg-blue-600 px-4 py-1 hidden  rounded-full text-white'>Register</NavLink>
+                <NavLink to='/registration' className='bg-green-600 px-4 py-1 hidden  rounded-full text-white'>Register</NavLink>
                 <NavLink to='/my-cart'><FaCartShopping className='text-lg' /></NavLink>
-                <NavLink to='/login' className='bg-blue-600 px-4 py-1 rounded-full text-white'>
+                <NavLink to='/login' className='bg-green-600 px-4 py-1 rounded-full text-white'>
                     Sign in
                 </NavLink>
 

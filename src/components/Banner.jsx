@@ -13,7 +13,7 @@ import img6 from '../assets/images/home/06.png';
 const Banner = () => {
     const sliderArray = [img1, img2, img3, img4, img5, img6];
     return (
-        <div className="w-full max-w-7xl mx-auto mt-5">
+        <div>
             <Carousel
                 autoPlay
                 interval={1000}
@@ -35,7 +35,7 @@ const Banner = () => {
             >
                 {sliderArray.map((src, index) => (
                     <div key={index}>
-                        <img src={src} alt='Slider-Image' className='h-130' />
+                        <img src={src} alt='Slider-Image' className='lg:h-150' />
 
                     </div>
                 ))}
