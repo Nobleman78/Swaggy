@@ -39,3 +39,8 @@ body{
   .animate-fadey{
     animation: fadey 5s ease-in-out infinite ;
   }
+  @layer utilities{
+    .stroke-red-600{
+      -webkit-text-stroke: 1px #ef4444;
+    }
+  }

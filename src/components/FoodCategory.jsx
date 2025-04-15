@@ -40,7 +40,7 @@ const FoodItems = () => {
     return (
         <div className='mt-10 sm:max-w-7xl mx-auto px-2 '>
             <h3 className='text-xl text-green-700 font-semibold'>Cripsy, Every Bite Test</h3>
-            <h1 className='text-5xl font-semibold'>Popular Food Items</h1>
+            <h1 className='text-5xl font-semibold'>Popular Food Category</h1>
 
             <div className="max-w-7xl mx-auto cursor-pointer  mt-10">
                 <Slider {...settings}>

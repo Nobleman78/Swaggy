@@ -1,18 +1,28 @@
 import React from 'react';
 import Banner from '../components/Banner';
-import FoodItems from '../components/FoodItems';
+import FoodItems from '../components/FoodCategory';
 import FoodMarketing from '../components/FoodMarketing';
 import OurCompany from '../components/OurCompany';
 import FoodBanner from '../components/FoodBanner';
+import PopularFoods from '../components/PopularFoods';
+import Trending from '../components/Trending';
+import Marquee from '../components/Marquee';
+import Services from '../components/Services';
+import AbouContent from '../components/AbouContent';
 
 const Home = () => {
     return (
-        <div className=''> 
+        <div className='bg-gray-50 h-auto'> 
             <Banner/>
             <FoodItems/>
             <FoodMarketing/>
             <OurCompany/>
             <FoodBanner/>
+            <PopularFoods/>
+            <Trending/>
+            <Marquee/>
+            <Services/>
+            <AbouContent/>
         </div>
     );
 };
