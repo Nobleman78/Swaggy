@@ -30,28 +30,40 @@ const FoodItems = () => {
                 <Slider {...settings}>
                     <div className="flex items-center gap-4 p-4 hover:bg-green-600 hover:text-white rounded-2xl">
                         <img src={menu1} alt="" className="" />
-                        <h2 className="text-lg mt-2 font-semibold text-center">Beef</h2>
+                        <h2 className=" mt-2 text-3xl font-semibold text-center">Beef</h2>
+                        <p className='w-10 mt-2 bg-white border mx-auto'></p>
+                        <h2 className='text-center mt-2 text-lg text-semibold'>10 Products</h2>
                     </div>
 
                     <div className="flex items-center gap-4 p-4 hover:bg-green-600 hover:text-white rounded-2xl">
                         <img src={menu2} alt="" />
-                        <p className="text-lg font-semibold text-center">Burger</p>
+                        <p className="text-3xl font-semibold text-center">Burger</p>
+                        <p className='w-10 mt-2 bg-white border mx-auto'></p>
+                        <h2 className='text-center text-lg mt-2 text-semibold'>10 Products</h2>
                     </div>
                     <div className="flex items-center gap-4 p-4 hover:bg-green-600 hover:text-white rounded-2xl">
                         <img src={menu3} alt="" />
-                        <p className="text-lg mt-2 font-semibold text-center">Chicken</p>
+                        <p className="text-3xl mt-2 font-semibold text-center">Chicken</p>
+                        <p className='w-10 mt-2 bg-white border mx-auto'></p>
+                        <h2 className='text-center text-lg mt-2 text-semibold '>10 Products</h2>
                     </div>
                     <div className="flex items-center gap-4 p-4 hover:bg-green-600 hover:text-white rounded-2xl">
                         <img src={menu4} alt="" />
-                        <p className="text-lg font-semibold text-center">Pizza</p>
+                        <p className="text-3xl font-semibold text-center">Pizza</p>
+                        <p className='w-10 mt-2 bg-white border mx-auto'></p>
+                        <h2 className='text-center text-lg mt-2 text-semibold '>10 Products</h2>
                     </div>
                     <div className="flex items-center gap-4 p-4 hover:bg-green-600 hover:text-white rounded-2xl">
                         <img src={menu5} alt="" />
-                        <p className="text-lg mt-3 font-semibold text-center">Pasta</p>
+                        <p className="text-3xl mt-3 font-semibold text-center">Pasta</p>
+                        <p className='w-10 mt-2 bg-white border mx-auto'></p>
+                        <h2 className='text-center text-lg mt-2 text-semibold '>10 Products</h2>
                     </div>
                     <div className="flex items-center gap-4 p-4 hover:bg-green-600 hover:text-white rounded-2xl">
                         <img className='w-50 h-50' src={menu6} alt="" />
-                        <p className="text-lg mt-5 font-semibold text-center" >French Fry</p>
+                        <p className="text-3xl mt-5 font-semibold text-center" >French Fry</p>
+                        <p className='w-10 mt-2  bg-white border mx-auto'></p>
+                        <p className='text-center text-lg mt-2  text-semibold '>10 Products</p>
                     </div>
                 </Slider>
             </div>

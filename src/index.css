@@ -3,3 +3,17 @@ body{
     font-family: "Outfit", sans-serif;
 }
 @import 'tailwindcss';
+
+@keyframes zoomPulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.5);
+    }
+  }
+  
+  .zoom-pulse {
+    animation: zoomPulse 3s ease-in-out infinite;
+  }
+  
