@@ -28,3 +28,14 @@ body{
     animation: sway 3s ease-in-out infinite;
    
   }
+  @keyframes fadey {
+    0%,100%{
+      transform: translateY(20px);
+    }
+    50%{
+      transform: translateY(-25px);
+    }
+  }
+  .animate-fadey{
+    animation: fadey 5s ease-in-out infinite ;
+  }
