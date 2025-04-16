@@ -44,4 +44,16 @@ body{
       -webkit-text-stroke: 1px #ef4444;
     }
   }
+  @keyframes fadeX{
+    0%,100%{
+      transform: translateX(100px);
+    }
+    50%{
+      transform: translateX(-100px);
+    }
+   
+  }
+  .animate-fadeX{
+      animation: fadeX 5s ease-in-out infinite;
+  }
 

@@ -7,7 +7,7 @@ import bigBurger from '../assets/Preview/big-burger.png'
 
 const Preview = () => {
     return (
-        <div className='sm:max-w-7xl mx-auto px-10 flex gap-10'>
+        <div className='sm:max-w-7xl mx-auto px-10 flex gap-10 mt-10'>
             <div className='w-2/3 relative group'>
                 <img className='opacity-100 z-0 rounded-2xl' src={previewBg} alt="" />
                 <h2 className='absolute top-20 z-20  flex flex-col  font-semibold text-center text-white  w-80 '><span className='text-4xl'>Today </span><br />

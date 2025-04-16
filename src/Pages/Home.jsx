@@ -11,6 +11,8 @@ import Services from '../components/Services';
 import AbouContent from '../components/AbouContent';
 import Preview from '../components/Preview';
 import CustomerReview from '../components/CustomerReview';
+import Delivery from '../components/Delivery';
+import BannerItems from '../components/BannerItems';
 
 const Home = () => {
     return (
@@ -27,6 +29,8 @@ const Home = () => {
             <AbouContent/>
             <Preview/>
             <CustomerReview/>
+            <Delivery/>
+            <BannerItems/>
         </div>
     );
 };

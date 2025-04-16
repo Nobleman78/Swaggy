@@ -40,9 +40,7 @@ const CustomerReview = () => {
                     <p className='text-3xl font-semibold italic'>One of the best pizzas I’ve had—great balance of flavors and textures.</p>
                     <img className='w-25 mx-auto ' src={customerReview} alt="" />
                 </div>
-               
-
-
+           
             </Slider>
         </div>
     );
