@@ -10,6 +10,7 @@ import Marquee from '../components/Marquee';
 import Services from '../components/Services';
 import AbouContent from '../components/AbouContent';
 import Preview from '../components/Preview';
+import CustomerReview from '../components/CustomerReview';
 
 const Home = () => {
     return (
@@ -25,6 +26,7 @@ const Home = () => {
             <Services/>
             <AbouContent/>
             <Preview/>
+            <CustomerReview/>
         </div>
     );
 };
