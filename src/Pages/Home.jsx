@@ -13,24 +13,28 @@ import Preview from '../components/Preview';
 import CustomerReview from '../components/CustomerReview';
 import Delivery from '../components/Delivery';
 import BannerItems from '../components/BannerItems';
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
     return (
-        <div className='bg-gray-50 h-auto'> 
-            <Banner/>
-            <FoodItems/>
-            <FoodMarketing/>
-            <OurCompany/>
-            <FoodBanner/>
-            <PopularFoods/>
-            <Trending/>
-            <Marquee/>
-            <Services/>
-            <AbouContent/>
-            <Preview/>
-            <CustomerReview/>
-            <Delivery/>
-            <BannerItems/>
+        <div className='bg-gray-50 h-auto'>
+            <Helmet>
+                <title>Home | Food King</title>
+            </Helmet>
+            <Banner />
+            <FoodItems />
+            <FoodMarketing />
+            <OurCompany />
+            <FoodBanner />
+            <PopularFoods />
+            <Trending />
+            <Marquee />
+            <Services />
+            <AbouContent />
+            <Preview />
+            <CustomerReview />
+            <Delivery />
+            <BannerItems />
         </div>
     );
 };

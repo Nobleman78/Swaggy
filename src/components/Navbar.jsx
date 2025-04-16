@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import logo from '../assets/images/foodking-logo.svg'
 import { RiMenu2Line } from "react-icons/ri";
@@ -7,10 +7,10 @@ import { IoLogOutOutline } from "react-icons/io5";
 import { MdModeEditOutline } from "react-icons/md";
 import { RxCross2 } from "react-icons/rx";
 import { FaCartShopping } from 'react-icons/fa6';
-
+import { ContextApi } from './Context/Context';
 
 const Navbar = () => {
-
+    const {menuTwo,setMenuTwo} = useContext(ContextApi);
     const [showUserInfo, setShowUserInfo] = useState(false);
     const [menu, setMenu] = useState('menu')
     const [openProfile, setOpenProfile] = useState(false);
@@ -18,7 +18,9 @@ const Navbar = () => {
 
     return (
 
+
         <div className='flex justify-between items-center py-5 font-medium sticky top-0 w-full lg:px-10 px-2 shadow-md bg-white z-50 '>
+          
             <div className='flex items-center gap-2 justify-center'>
                 <RiMenu2Line onClick={() => setOpen(!open)} className='md:hidden' />
                 <Link to='/'><img className='lg:w-40 w-25' src={logo} alt="Logo" /></Link>
@@ -33,7 +35,7 @@ const Navbar = () => {
                     <hr className='w-2/4 border-none h-[1.5px] hidden bg-gray-700' />
                 </NavLink>
                 <NavLink to='/our-menu' className='flex flex-col items-center gap-1' >
-                    <p>OUR MENU</p>
+                    <p onMouseEnter={()=>setMenuTwo(!menuTwo)}>OUR MENU</p>
                     <hr className='w-2/4 border-none h-[1.5px] hidden bg-gray-700' />
                 </NavLink>
                 <NavLink to='/our-shop' className='flex flex-col items-center gap-1' >
