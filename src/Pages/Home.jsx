@@ -9,6 +9,7 @@ import Trending from '../components/Trending';
 import Marquee from '../components/Marquee';
 import Services from '../components/Services';
 import AbouContent from '../components/AbouContent';
+import Preview from '../components/Preview';
 
 const Home = () => {
     return (
@@ -23,6 +24,7 @@ const Home = () => {
             <Marquee/>
             <Services/>
             <AbouContent/>
+            <Preview/>
         </div>
     );
 };

@@ -24,7 +24,7 @@ const AbouContent = () => {
                         <p className='text-lg'>A team of dreamers and doers building unique interactive music and art</p>
                     </div>
                 </div>
-                <button className='px-15 py-6 text-lg cursor-pointer text-white rounded-full bg-green-500 mb-10 mt-5'>More About Us</button>
+                <button className='px-15 py-6 text-lg cursor-pointer hover:bg-green-700 text-white rounded-full bg-green-500 mb-10 mt-5'>More About Us</button>
             </div>
 
         </div>
