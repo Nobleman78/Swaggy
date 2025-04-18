@@ -23,7 +23,7 @@ const PopularFoods = () => {
                                 <img className='rounded-xl' src={item.image} alt="" />
                                 <h2 className='text-2xl'>{item.name}</h2>
                                 <p className='font-bold text-xl'>${item.price}</p>
-                                <button className='bg-green-600 text-white px-4 py-2 rounded-full cursor-pointer '>Add to Cart</button>
+                                <button className='bg-green-400 text-white px-4 py-2 rounded-full hover:bg-green-700 cursor-pointer '>Add to Cart</button>
 
                             </div>
                         )

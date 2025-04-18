@@ -1,113 +1,287 @@
 [
-    {
-      "name": "Haddock",
-      "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-      "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-      "price": 14.7,
-      "category": "seafood",
-      "children": [
-        { "name": "Mini Haddock Sliders", "price": 5.0, "path": "/seafood/mini-haddock-sliders" },
-        { "name": "Haddock Fish Tacos", "price": 6.5, "path": "/seafood/haddock-fish-tacos" }
-      ]
-    },
-    {
-      "name": "Shrimp Pasta",
-      "recipe": "Creamy garlic shrimp tossed with linguine, cherry tomatoes, and fresh basil.",
-      "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-      "price": 18.5,
-      "category": "shellfish",
-      "children": [
-        { "name": "Garlic Shrimp Bowl", "price": 7.0, "path": "/shellfish/garlic-shrimp-bowl" },
-        { "name": "Shrimp Alfredo Mini", "price": 8.0, "path": "/shellfish/shrimp-alfredo-mini" }
-      ]
-    },
-    {
-      "name": "Grilled Chicken",
-      "recipe": "Juicy grilled chicken breast served with seasonal vegetables and a lemon herb sauce.",
-      "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-      "price": 16.0,
-      "category": "poultry",
-      "children": [
-        { "name": "Chicken Skewers", "price": 6.0, "path": "/poultry/chicken-skewers" },
-        { "name": "Grilled Chicken Wrap", "price": 7.5, "path": "/poultry/grilled-chicken-wrap" }
-      ]
-    },
-    {
-      "name": "Margarita Pizza",
-      "recipe": "Classic margarita pizza with fresh mozzarella, tomato sauce, and basil leaves.",
-      "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-4-370x247.jpg",
-      "price": 12.0,
-      "category": "flatbread",
-      "children": [
-        { "name": "Mini Margarita Slices", "price": 4.0, "path": "/flatbread/mini-margarita-slices" },
-        { "name": "Margarita Pizza Rolls", "price": 5.5, "path": "/flatbread/margarita-pizza-rolls" }
-      ]
-    },
-    {
-      "name": "Chocolate Cake",
-      "recipe": "Rich and moist chocolate cake topped with ganache and a scoop of vanilla ice cream.",
-      "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-5-370x247.jpg",
-      "price": 8.5,
-      "category": "baked-dessert",
-      "children": [
-        { "name": "Mini Chocolate Cupcake", "price": 3.0, "path": "/baked-dessert/mini-chocolate-cupcake" },
-        { "name": "Chocolate Lava Slice", "price": 4.5, "path": "/baked-dessert/chocolate-lava-slice" }
-      ]
-    },
-    {
-      "name": "Quinoa Salad",
-      "recipe": "Healthy salad with quinoa, cucumbers, cherry tomatoes, and lemon dressing.",
-      "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-6-370x247.jpg",
-      "price": 9.5,
-      "category": "grain-salad",
-      "children": [
-        { "name": "Quinoa & Avocado Cup", "price": 4.0, "path": "/grain-salad/quinoa-avocado-cup" },
-        { "name": "Mini Quinoa Bowl", "price": 4.5, "path": "/grain-salad/mini-quinoa-bowl" }
-      ]
-    },
-    {
-      "name": "Iced Coffee",
-      "recipe": "Chilled espresso over ice with milk and a touch of vanilla syrup.",
-      "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-7-370x247.jpg",
-      "price": 4.5,
-      "category": "cold-beverage",
-      "children": [
-        { "name": "Small Iced Coffee", "price": 2.5, "path": "/cold-beverage/small-iced-coffee" },
-        { "name": "Caramel Iced Shot", "price": 3.0, "path": "/cold-beverage/caramel-iced-shot" }
-      ]
-    },
-    {
-      "name": "Tiramisu",
-      "recipe": "Classic Italian tiramisu layered with espresso-soaked ladyfingers and mascarpone cream.",
-      "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-      "price": 9.0,
-      "category": "layered-dessert",
-      "children": [
-        { "name": "Tiramisu Cup", "price": 4.0, "path": "/layered-dessert/tiramisu-cup" },
-        { "name": "Mini Mocha Slice", "price": 3.5, "path": "/layered-dessert/mini-mocha-slice" }
-      ]
-    },
-    {
-      "name": "Stuffed Peppers",
-      "recipe": "Bell peppers filled with rice, ground beef, and tomato sauce.",
-      "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-9-370x247.jpg",
-      "price": 13.5,
-      "category": "stuffed-dish",
-      "children": [
-        { "name": "Mini Stuffed Peppers", "price": 5.0, "path": "/stuffed-dish/mini-stuffed-peppers" },
-        { "name": "Spicy Pepper Bites", "price": 5.5, "path": "/stuffed-dish/spicy-pepper-bites" }
-      ]
-    },
-    {
-      "name": "Beetroot Soup",
-      "recipe": "Velvety beetroot soup garnished with cream and chives.",
-      "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-10-370x247.jpg",
-      "price": 7.0,
-      "category": "vegetable-soup",
-      "children": [
-        { "name": "Beetroot Shot Glass", "price": 2.5, "path": "/vegetable-soup/beetroot-shot-glass" },
-        { "name": "Mini Soup Bowl", "price": 3.0, "path": "/vegetable-soup/mini-soup-bowl" }
-      ]
-    }
-  ]
   
+    {
+      "_id": "popular001",
+      "name": "Margarita Pizza",
+      "category": "popular",
+      "price":12,
+      "image":"https://media.istockphoto.com/id/1439782668/photo/a-homemade-cheese-pizza-sits-atop-a-decorative-cutting-board.jpg?s=1024x1024&w=is&k=20&c=mIetokYfF-BL2-rJFEvaBzoZEogljWqQu2Xn50f9Gto=",
+      "children": [
+        {
+          "_id": "pizza001",
+          "name": "Margarita Pizza",
+          "price": 12.0,
+          "image": "https://www.istockphoto.com/photo/directly-above-pizza-margherita-freshly-baked-with-basil-and-mozzarella-topping-gm1733415256-541982431?utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmargarita-pizza&utm_medium=affiliate&utm_source=unsplash&utm_term=margarita+pizza%3A%3A%3A"
+        },
+        {
+          "_id": "pizza002",
+          "name": "Pepperoni Pizza",
+          "price": 14.5,
+          "image": "https://images.unsplash.com/photo-1601924903315-6e42fbb5a98e?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "_id": "pizza003",
+          "name": "BBQ Chicken Pizza",
+          "price": 15.0,
+          "image": "https://images.unsplash.com/photo-1601924971453-35c181c25d6c?auto=format&fit=crop&w=800&q=80"
+        }
+      ]
+    },
+    {
+      "_id": "popular002",
+      "name": "Iced Coffee",
+      "category": "popular",
+      "image":"https://media.istockphoto.com/id/1353598939/photo/fresh-coffee.jpg?s=1024x1024&w=is&k=20&c=9AtGMZ1G5q9MIncPeCR1O6xIAt_b0vMzRfhpQFC2ELU=",
+      "price":10,
+      "children": [
+        {
+          "_id": "drink001",
+          "name": "Iced Coffee",
+          "price": 4.5,
+          "image": "https://images.unsplash.com/photo-1601924802049-6b8e47cf8a65?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "_id": "drink002",
+          "name": "Strawberry Milkshake",
+          "price": 5.0,
+          "image": "https://images.unsplash.com/photo-1601925030030-fc08d7d3bc59?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "_id": "drink003",
+          "name": "Lemonade",
+          "price": 3.0,
+          "image": "https://images.unsplash.com/photo-1601924824929-34fbb3558b51?auto=format&fit=crop&w=800&q=80"
+        }
+      ]
+    },
+    {
+      "_id": "popular003",
+      "name": "Chocolate Cake",
+      "category": "popular",
+      "image":"https://media.istockphoto.com/id/1370520449/photo/slice-of-chocolate-cake-with-glaze.jpg?s=1024x1024&w=is&k=20&c=bJfEJGn76XIw13A1fKRYKywbVvQ8th5Ece8TwuU6m18=",
+      "price":10,
+      "children": [
+        {
+          "_id": "dessert001",
+          "name": "Chocolate Cake",
+          "price": 8.5,
+          "image": "https://images.unsplash.com/photo-1601925230906-e7d9e6f282e5?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "_id": "dessert002",
+          "name": "Vanilla Ice Cream",
+          "price": 3.5,
+          "image": "https://images.unsplash.com/photo-1601925369070-093bca8b99dc?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "_id": "dessert003",
+          "name": "Cheesecake",
+          "price": 7.0,
+          "image": "https://images.unsplash.com/photo-1601925215925-24e8e07b4690?auto=format&fit=crop&w=800&q=80"
+        }
+      ]
+    },
+    {
+      "_id": "popular004",
+      "name": "Shrimp Pasta",
+      "category": "popular",
+      "price":10,
+      "image":"https://media.istockphoto.com/id/610681138/photo/shrimp-scampi-with-spaghetti.jpg?s=612x612&w=0&k=20&c=fKuUPOo9NWMl98Sp5Pqu_wJvU8fiCIuJo_5Y6z2TMro=",
+      "children": [
+        {
+          "_id": "main001",
+          "name": "Shrimp Pasta",
+          "price": 18.5,
+          "image": "https://images.unsplash.com/photo-1601924870297-f536f875da07?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "_id": "main002",
+          "name": "Grilled Chicken Bowl",
+          "price": 13.0,
+          "image": "https://images.unsplash.com/photo-1601924836999-d12f81a1c6c4?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "_id": "main003",
+          "name": "Veggie Burger",
+          "price": 11.0,
+          "image": "https://images.unsplash.com/photo-1601924895299-9cfda0db6a7b?auto=format&fit=crop&w=800&q=80"
+        }
+      ]
+    },
+    {
+      "_id": "popular004",
+      "name": "Fried chicken",
+      "category": "popular",
+      "price":10,
+      "image":"https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJpZWQlMjBjaGlja2VufGVufDB8fDB8fHww",
+      "items": [
+        {
+          "_id": "main001",
+          "name": "Shrimp Pasta",
+          "price": 18.5,
+          "image": "https://images.unsplash.com/photo-1601924870297-f536f875da07?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "_id": "main002",
+          "name": "Grilled Chicken Bowl",
+          "price": 13.0,
+          "image": "https://images.unsplash.com/photo-1601924836999-d12f81a1c6c4?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "_id": "main003",
+          "name": "Veggie Burger",
+          "price": 11.0,
+          "image": "https://images.unsplash.com/photo-1601924895299-9cfda0db6a7b?auto=format&fit=crop&w=800&q=80"
+        }
+      ]
+    },
+    {
+      "_id": "popular004",
+      "name": "Zucchini noodles pasta",
+      "category": "popular",
+      "price":10,
+      "image":"https://media.istockphoto.com/id/1162317671/photo/spiralized-zucchini-noodles-pasta-with-shrimps-top-view.jpg?s=1024x1024&w=is&k=20&c=ZF2QXuIvUhzGY8CWvwV26trX3m2sMY-2QcO1Enw5eJE=",
+      "items": [
+        {
+          "_id": "main001",
+          "name": "Shrimp Pasta",
+          "price": 18.5,
+          "image": "https://images.unsplash.com/photo-1601924870297-f536f875da07?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "_id": "main002",
+          "name": "Grilled Chicken Bowl",
+          "price": 13.0,
+          "image": "https://images.unsplash.com/photo-1601924836999-d12f81a1c6c4?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "_id": "main003",
+          "name": "Veggie Burger",
+          "price": 11.0,
+          "image": "https://images.unsplash.com/photo-1601924895299-9cfda0db6a7b?auto=format&fit=crop&w=800&q=80"
+        }
+      ]
+    },
+  
+  
+  {
+    "_id": "abcdknoi231",
+    "name": "Haddock",
+    "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
+    "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
+    "price": 14.7,
+    "category": "seafood",
+    "children": [
+      { "_id": "defghijk456", "name": "Mini Haddock Sliders", "price": 5.0, "path": "/seafood/mini-haddock-sliders" },
+      { "_id": "lmnopqr789", "name": "Haddock Fish Tacos", "price": 6.5, "path": "/seafood/haddock-fish-tacos" }
+    ]
+  },
+  {
+    "_id": "stuvwxyz012",
+    "name": "Shrimp Pasta",
+    "recipe": "Creamy garlic shrimp tossed with linguine, cherry tomatoes, and fresh basil.",
+    "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
+    "price": 18.5,
+    "category": "shellfish",
+    "children": [
+      { "_id": "3456abcde7", "name": "Garlic Shrimp Bowl", "price": 7.0, "path": "/shellfish/garlic-shrimp-bowl" },
+      { "_id": "8901fghij2", "name": "Shrimp Alfredo Mini", "price": 8.0, "path": "/shellfish/shrimp-alfredo-mini" }
+    ]
+  },
+  {
+    "_id": "klmnopq345",
+    "name": "Grilled Chicken",
+    "recipe": "Juicy grilled chicken breast served with seasonal vegetables and a lemon herb sauce.",
+    "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
+    "price": 16.0,
+    "category": "poultry",
+    "children": [
+      { "_id": "6789rstuv0", "name": "Chicken Skewers", "price": 6.0, "path": "/poultry/chicken-skewers" },
+      { "_id": "1234wxyza5", "name": "Grilled Chicken Wrap", "price": 7.5, "path": "/poultry/grilled-chicken-wrap" }
+    ]
+  },
+  {
+    "_id": "bcdefgh678",
+    "name": "Margarita Pizza",
+    "recipe": "Classic margarita pizza with fresh mozzarella, tomato sauce, and basil leaves.",
+    "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-4-370x247.jpg",
+    "price": 12.0,
+    "category": "flatbread",
+    "children": [
+      { "_id": "9012zabcd3", "name": "Mini Margarita Slices", "price": 4.0, "path": "/flatbread/mini-margarita-slices" },
+      { "_id": "4567efghi8", "name": "Margarita Pizza Rolls", "price": 5.5, "path": "/flatbread/margarita-pizza-rolls" }
+    ]
+  },
+  {
+    "_id": "ijklmno901",
+    "name": "Chocolate Cake",
+    "recipe": "Rich and moist chocolate cake topped with ganache and a scoop of vanilla ice cream.",
+    "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-5-370x247.jpg",
+    "price": 8.5,
+    "category": "baked-dessert",
+    "children": [
+      { "_id": "2345pqrst6", "name": "Mini Chocolate Cupcake", "price": 3.0, "path": "/baked-dessert/mini-chocolate-cupcake" },
+      { "_id": "7890uvwxy1", "name": "Chocolate Lava Slice", "price": 4.5, "path": "/baked-dessert/chocolate-lava-slice" }
+    ]
+  },
+  {
+    "_id": "pqrstuv234",
+    "name": "Quinoa Salad",
+    "recipe": "Healthy salad with quinoa, cucumbers, cherry tomatoes, and lemon dressing.",
+    "image": "https://images.unsplash.com/photo-1656853834420-51980b12a920?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cXVpbm9hJTIwc2FsYWR8ZW58MHx8MHx8fDA%3D",
+    "price": 9.5,
+    "category": "grain-salad",
+    "children": [
+      { "_id": "0123zabcd4", "name": "Quinoa & Avocado Cup", "price": 4.0, "path": "/grain-salad/quinoa-avocado-cup" },
+      { "_id": "5678efghi9", "name": "Mini Quinoa Bowl", "price": 4.5, "path": "/grain-salad/mini-quinoa-bowl" }
+    ]
+  },
+  {
+    "_id": "wxyzabc567",
+    "name": "Iced Coffee",
+    "recipe": "Chilled espresso over ice with milk and a touch of vanilla syrup.",
+    "image": "https://media.istockphoto.com/id/1353598939/photo/fresh-coffee.jpg?s=1024x1024&w=is&k=20&c=9AtGMZ1G5q9MIncPeCR1O6xIAt_b0vMzRfhpQFC2ELU=",
+    "price": 4.5,
+    "category": "cold-beverage",
+    "children": [
+      { "_id": "9012jklmn0", "name": "Small Iced Coffee", "price": 2.5, "path": "/cold-beverage/small-iced-coffee" },
+      { "_id": "3456opqrs7", "name": "Caramel Iced Shot", "price": 3.0, "path": "/cold-beverage/caramel-iced-shot" }
+    ]
+  },
+  {
+    "_id": "defghij890",
+    "name": "Tiramisu",
+    "recipe": "Classic Italian tiramisu layered with espresso-soaked ladyfingers and mascarpone cream.",
+    "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
+    "price": 9.0,
+    "category": "layered-dessert",
+    "children": [
+      { "_id": "6789tuvwx1", "name": "Tiramisu Cup", "price": 4.0, "path": "/layered-dessert/tiramisu-cup" },
+      { "_id": "1234yzabc5", "name": "Mini Mocha Slice", "price": 3.5, "path": "/layered-dessert/mini-mocha-slice" }
+    ]
+  },
+  {
+    "_id": "klmnopq123",
+    "name": "Stuffed Peppers",
+    "recipe": "Bell peppers filled with rice, ground beef, and tomato sauce.",
+    "image": "https://media.istockphoto.com/id/509681073/photo/stuffed-peppers.jpg?s=1024x1024&w=is&k=20&c=xEqkrlNMC5cq1vvhrNM5Hr00V0nqPjf-yKpTsY1ft9U=",
+    "price": 13.5,
+    "category": "stuffed-dish",
+    "children": [
+      { "_id": "4567bcdef8", "name": "Mini Stuffed Peppers", "price": 5.0, "path": "/stuffed-dish/mini-stuffed-peppers" },
+      { "_id": "9012ghijk3", "name": "Spicy Pepper Bites", "price": 5.5, "path": "/stuffed-dish/spicy-pepper-bites" }
+    ]
+  },
+  {
+    "_id": "opqrstu456",
+    "name": "Beetroot Soup",
+    "recipe": "Velvety beetroot soup garnished with cream and chives.",
+    "image": "https://images.unsplash.com/photo-1611601575810-434066e7bcd5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVldHJvb3QlMjBzb3VwfGVufDB8fDB8fHww",
+    "price": 7.0,
+    "category": "vegetable-soup",
+    "children": [
+      { "_id": "2345lmnoq6", "name": "Beetroot Shot Glass", "price": 2.5, "path": "/vegetable-soup/beetroot-shot-glass" },
+      { "_id": "7890prstu1", "name": "Mini Soup Bowl", "price": 3.0, "path": "/vegetable-soup/mini-soup-bowl" }
+    ]
+  }
+]

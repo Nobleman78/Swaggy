@@ -10,7 +10,6 @@ import { FaCartShopping } from 'react-icons/fa6';
 import { ContextApi } from './Context/Context';
 
 const Navbar = () => {
-    const {menuTwo,setMenuTwo} = useContext(ContextApi);
     const [showUserInfo, setShowUserInfo] = useState(false);
     const [menu, setMenu] = useState('menu')
     const [openProfile, setOpenProfile] = useState(false);
@@ -35,7 +34,7 @@ const Navbar = () => {
                     <hr className='w-2/4 border-none h-[1.5px] hidden bg-gray-700' />
                 </NavLink>
                 <NavLink to='/our-menu' className='flex flex-col items-center gap-1' >
-                    <p onMouseEnter={()=>setMenuTwo(!menuTwo)}>OUR MENU</p>
+                    <p>OUR MENU</p>
                     <hr className='w-2/4 border-none h-[1.5px] hidden bg-gray-700' />
                 </NavLink>
                 <NavLink to='/our-shop' className='flex flex-col items-center gap-1' >

@@ -24,11 +24,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/dashboard' element={<Dashboard />}></Route>
-          <Route path="/our-menu" element={<Menu />}>
-            <Route path="salad" element={<Salad />} />
-            <Route path="fish-finger" element={<FishFinger />} />
-            <Route path="noodles" element={<Noodles />} />
-          </Route>
+          <Route path="/our-menu" element={<Menu />}></Route>
+          <Route path="/our-menu/:id" element={<Menu />}></Route>
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='/our-shop' element={<Shop />}></Route>
           <Route path='/my-cart' element={<Cart />}></Route>

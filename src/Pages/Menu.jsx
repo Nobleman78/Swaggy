@@ -1,51 +1,33 @@
-import { Link, Outlet } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { ContextApi } from '../components/Context/Context';
-import { useContext, useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Menu = () => {
-    const { menuTwo } = useContext(ContextApi);
-    const [openDropdown, setOpenDropdown] = useState(null);
-    const [menuItems, setMenuItems] = useState([])
+
+    const [menu, setMenu] = useState([])
     useEffect(() => {
         fetch('menu.json')
             .then(res => res.json())
-            .then(data => setMenuItems(data))
+            .then(data => setMenu(data))
     })
-    const toggleDropDown = (name) => {
-        setOpenDropdown(openDropdown === name ? null : name)
-    }
     return (
-        <div className='sm:max-w-7xl mx-auto px-2 relative '>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-10 py-10' >
             <Helmet>
-                <title>Menu | Food King</title>
+                <title>Our Menu | Food King</title>
             </Helmet>
-
-            {menuTwo && (
-                <div className='w-full bg-white shadow-xl px-10 absolute  rounded-lg'>
-                    <ul className='flex gap-5 items-start py-6 relative'>
-                        {menuItems.map((item, index) => (
-                            <div key={index} className='relative'>
-                                <button  onClick={() => toggleDropDown(item.category)} className='font-medium text-sm hover:text-green-600 bg-gray-300 rounded-full cursor-pointer px-3 py-2'>{item.category.charAt(0).toUpperCase() + item.category.slice(1)}</button>
-                                {openDropdown === item.category && (
-                                    <ul className='absolute bg-white shadow-lg  mt-2 rounded-md py-3 text-center  min-w-[180px] space-y-2'>
-                                        {item.children.map((child, idx) => (
-                                            <li key={idx} className='hover:bg-gray-200' >
-                                                <Link to={child.path} className='block w-full' onClick={() => setOpenDropdown(null)}>
-                                                    
-                                                        {child.name}
-                                                   
-                                                </Link>
-                                            </li>
-                                        ))}
-                                    </ul>
-                                )}
-                            </div>
-                        ))}
-                        <Outlet />
-                    </ul>
-                </div>
-            )}
+            {
+                menu.map(item => {
+                    return (
+                        <div className='shadow-xl px-8 py-5 cursor-pointer rounded-2xl flex flex-col gap-4' >
+                            <img className='w-100 h-50 rounded-xl' src={item.image} alt="" />
+                            <p>Name : {item.name}</p>
+                            <h2>Price : $ {item.price} </h2>
+                            <p>Category : {item.category}</p> 
+                            <button className='bg-green-400 px-5 text-white rounded-full cursor-pointer py-2'>Add To Cart</button>
+                        </div>
+                    )
+                })
+            }
         </div>
     );
 };
